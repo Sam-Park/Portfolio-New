@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
@@ -37,6 +37,9 @@ const Header = () =>  (
       </SocialIcons>
       <SocialIcons href="https://www.linkedin.com/in/sam-park-b6266b66/">
         <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons onClick={() => window.location = "mailto:sam@samuelcpark.com"}>
+        <AiOutlineMail size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
