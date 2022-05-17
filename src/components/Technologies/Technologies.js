@@ -7,6 +7,8 @@ const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider />
     <br />
+    <br />
+    <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of Technologies in the web development world. Python scripting
